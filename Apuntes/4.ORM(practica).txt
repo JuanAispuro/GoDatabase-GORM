@@ -1,0 +1,14 @@
+-- 4.1 Introducción --
+ORM
+Permite mapear la base de datos.
+
+
+-- 4.2 Conectase a MySQL y Postgres --
+Eliminamos las bases de datos que ya teniamos.
+Pos Nos cambiamos a una nueva pagina.
+main:
+	driver := storage.Postgres
+
+	storage.New(driver)
+
+-- 4.3 Declaracion de modelos -- 
